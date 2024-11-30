@@ -21,7 +21,7 @@ public:
 // private funcs and data cannot he inherited.
 // protected is same as privte but just can be inherited.
 
-
+// mode of inheritance
 // Public mode: public funcs in parent will be public in child & protected will remain protected
 // Protected mode: public funcs become protected, protected funcs remain protected
 // Private mode: public and protected funcs become private in child class
