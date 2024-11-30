@@ -47,7 +47,7 @@ int main() {
     cout << c2.x << endl;
     // both objects pointing to same static variable
     
-    cout << c2.y++ << endl; // 1
+    cout << c1.y++ << endl; // 1
     cout << c2.y++ << endl; // 2, as both diffrent operators share same static non-const var 
 
     //// Static Objects, which will not get deleted after the scope / stack ended.
