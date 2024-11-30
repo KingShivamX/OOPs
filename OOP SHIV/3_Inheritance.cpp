@@ -21,10 +21,10 @@ public:
 // private funcs and data cannot he inherited.
 // protected is same as privte but just can be inherited.
 
-// mode of inheritance
-// public mode, public funcs in parent will be public in child & protected will be proteceted 
-// protected mode, public and private both will be protected in child class, cant access in main()
-// private mode, public and private both will be proteced in child class, cant access in main()
+
+// Public mode: public funcs in parent will be public in child & protected will remain protected
+// Protected mode: public funcs become protected, protected funcs remain protected
+// Private mode: public and protected funcs become private in child class
 
 class Fish : public Animal { 
 public:
